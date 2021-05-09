@@ -63,7 +63,7 @@ namespace WebApiSolo.Controllers
                         }
                         try
                         {
-                            site.SiteId = db.TblSites.Where(x => x.SiteName.ToLower().Contains(item.sport_key.ToLower())).FirstOrDefault().SiteId;
+                            //site.SiteId = db.TblSites.Where(x => x.SiteName.ToLower().Contains(item.sport_key.ToLower())).FirstOrDefault().SiteId;
                          }
                         catch
                         {
